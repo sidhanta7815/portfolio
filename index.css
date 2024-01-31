@@ -1,0 +1,118 @@
+#header{
+    background-color: black;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://wallpapers.com/images/hd/dark-background-b59iy2towqy5yrgb.jpg');
+    background-position: center;
+    row-gap: 35px;
+}
+#h1{
+    margin-bottom: 7px;
+    color: azure;
+    font-size: 5rem;
+}
+.fa{
+    color: aliceblue;
+}
+#icon{
+    display: flex;
+    column-gap: 25px;
+}
+#icon i:hover{
+    color: chocolate;
+}
+.button{
+    height: 50px;
+    width: 141px;
+    border: 2px solid coral;
+    border-radius: 29px;
+    color: aliceblue;
+    background: transparent;
+    font-size: 1rem;
+}
+.button:hover{
+    background-color:#E5E4E2;
+    color: black;
+    i{
+        color: black;
+    }
+}
+#sw{
+    color: black;
+    font-size: 3rem;
+}
+#btn{
+    border-radius: 50px;
+    height: 80px;
+    width: 80px;
+    border: none;
+    margin-top: 20px;
+}
+.kala{
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    column-gap: 80px;
+    align-items: center;
+    transition: ease;
+}
+#muNije{
+    height: 144px;
+    width: 151px;
+    border-radius: 16px;
+}
+#para{
+    line-height: 1.4;
+    text-align: justify;
+
+}
+.edu_heading{
+    border-bottom: 3px solid orange;
+    width: 112px;
+}
+.education{
+    /* display: flex;
+    column-gap: 80px;
+    align-items: center; */
+    margin-left: 205px;
+    margin-top: 47px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+#khasa{
+    position: relative;
+    top: 13px;
+    line-height: 0.2;
+}
+hr{
+    width: 90%;
+    height: 1px;
+    margin-top: 31px;
+    margin-bottom: 50px;
+}
+.work_heading{
+    border-bottom: 3px solid orange;
+    width: 62px;
+}
+.Skill_heading{
+    border-bottom: 3px solid orange;
+    width: 53px;
+}
+.pro{
+    width: 50%;
+    background-color: orange;
+}
+.pro2{
+    width: 300px;
+    background-color: lightgray;
+}
+.g{
+    border-radius: 35px;
+    height: 20px;
+}
